@@ -220,7 +220,7 @@ int main( int argc, char *argv[] ) {
             printf(" -crop %.0fx%.0f+0+0",w,h);
           }' ) );*/
 
-      logger( 2, "image %d perspective distortion: %.1f,%.1f %.1f,%.1f %.1f,%.1f %.1f,%.1f", m, ulX, ulY, urX, urY, drX, drY, dlX, dlY );
+      logger( 2, "image %d perspective distortion: %.1g,%.1g %.1g,%.1g %.1g,%.1g %.1g,%.1g", m, ulX, ulY, urX, urY, drX, drY, dlX, dlY );
 
       double ullX, ullY, dllX, dllY;
       double urrX, urrY, drrX, drrY;
